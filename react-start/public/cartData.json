@@ -1,0 +1,9 @@
+{
+  "errcode": 0,
+  "list": [
+    { "id": 1, "name": "西瓜", "price": 5, "number": 2 },
+    { "id": 2, "name": "苹果", "price": 2, "number": 1 },
+    { "id": 3, "name": "香蕉", "price": 3, "number": 7 },
+    { "id": 4, "name": "葡萄", "price": 7, "number": 2 }
+  ]
+}

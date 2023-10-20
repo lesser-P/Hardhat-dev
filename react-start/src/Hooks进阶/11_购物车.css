@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.cart {
+  width: 700px;
+  margin: 30px auto;
+}
+.cart ul {
+  overflow: hidden;
+}
+.cart li {
+  width: 100px;
+  border: 5px gray dotted;
+  border-radius: 20px;
+  padding: 20px;
+  float: left;
+  margin: 10px;
+}
+.cart .remove,
+.cart .add {
+  cursor: pointer;
+}
+.cart .cartbtn {
+  font-size: 14px;
+  text-align: center;
+  background: red;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.cart li.active {
+  border-color: red;
+}
+.cart li.active .cartbtn {
+  background-color: skyblue;
+}
+.cart .all {
+  text-align: center;
+  margin: 20px 0;
+}
