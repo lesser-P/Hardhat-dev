@@ -10,6 +10,7 @@ async function main() {
   const factory = await ethers.getContractFactory('Chainlinkdemo')
   const contract = await factory.deploy(vrfAddress, hash, subId, 2, gasLImit, 2)
   await contract.waitForDeployment()
+
   console.log('addres:', contract.target)
 
   //   //调用
